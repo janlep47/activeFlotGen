@@ -2,10 +2,10 @@
 Code generator for creating multiple interactive plots for viewing in the browser
 
 ## Purpose
-To generate multiple web pages containing interactive plots.  The user of this code can pre-select different types of widgets and plots, that can be used by the end-user of the generated web pages, to make interactive changes to the plots.
+To generate multiple web pages containing interactive plots.
 
 ## History
-This code was created 7/10/2013 to for the purpose of writing many web page files containing interactive Jquery- and Matlab- generated plots, as a supplement to a textbook.
+This code was created 7/10/2013 for the purpose of writing many web page files containing interactive Jquery- and Matlab- generated plots, as a supplement to a textbook.
 
 ## Installation
 There is no actual installation
