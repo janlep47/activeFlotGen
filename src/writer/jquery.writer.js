@@ -477,35 +477,6 @@ Writer.prototype.checkForFieldset = function() {
             $.fn.Writer.StyleReady = true;
             var arrStyle = [
                 "<style type='text/css'>",
-/*
-changed "ec-comment" to "writer":
-
-            ".writer-pane{position:relative; padding-left:20px; margin:5px 0; overflow:auto}",
-            ".writer-pane div.ec-total{font:1.3em Georgia; height:24px; line-height:24px}",
-            ".writer-pane div.ec-paging{height:30px; line-height:30px;text-align:right;}",
-            ".writer-pane div.ec-paging>button{font:13px arial;height:30px; line-height:30px;margin-right:10px;}",
-            ".writer-pane ul.writer-list{position:relative; font-family:'Lucida Grande',sans-serif; font-size:14px; line-height:16px; list-style-type:none; padding:0px; background-color:#FFF; border:0px solid #14a1cc; border-radius:12px; overflow:auto}",
-            ".writer-pane ul.writer-list li.writer{position:relative; min-height:48px; min-width:48px; padding:4px 4px 12px 56px; margin-bottom:8px; border-radius:4px; font-size:9pt arial}",
-            ".writer-pane ul.writer-list li.writer:last-child{border:none; padding-bottom:0px}",
-            ".writer-pane ul.writer-list li.writer button{font:11px arial}",
-            ".writer-pane ul.writer-list li.writer a, ",
-            ".writer-pane ul.writer-list li.writer .author{font-weight:bold; color:#2276bb; text-decoration:none}",
-            ".writer-pane ul.writer-list li.writer a:hover{text-decoration:underline}",
-            ".writer-pane ul.writer-list li.writer div.avatar{position:absolute; top:0px; left:0px; width:48px; height:48px; border:none; margin-top:6px; margin-left:2px; border-radius:4px; text-overflow:ellipsis; background:url(" + path + "writer.png)}",
-            ".writer-pane ul.writer-list li.writer span.user-name{font-weight:bold; margin-right:0.5em; text-overflow:ellipsis}",
-            ".writer-pane ul.writer-list li.writer span.comment-time{font-size:11px; color:#999; line-height:16px; text-overflow:ellipsis}",
-            ".writer-form{font:1em Georgia}",
-            ".writer-form form{margin:0; padding:0}",
-            ".writer-form form input, .writer-form form textarea, .writer-form form button{font:1em arial}",
-            ".writer-form fieldset{ background:-webkit-gradient(linear,0 0,0 bottom,from(#ffffff),to(#dddddd));  background:-moz-linear-gradient(#ffffff,#dddddd);  background:linear-gradient(#ffffff,#dddddd);  filter :progid:DXImageTransform.Microsoft.Gradient(GradientType=0,startColorstr=#ffffff,endColorstr=#dddddd)}",
-            ".writer-form fieldset legend{ background:-webkit-gradient(linear,0 0,0 bottom,from(#ffffff),to(#dddddd));  background:-moz-linear-gradient(#ffffff,#dddddd);  background:linear-gradient(#ffffff,#dddddd);  filter :progid:DXImageTransform.Microsoft.Gradient(GradientType=0,startColorstr=#ffffff,endColorstr=#dddddd);  padding:0px 5px;  border-radius:6px;  border:1px solid #ccc}",
-            ".writer-form .title{ color:#444;  line-height:30px}",
-            ".writer-form fieldset{ border-radius:6px}",
-            ".writer-form fieldset fieldset{ border:none;  background:none;  filter:none}",
-            ".writer-form fieldset fieldset legend{ background:none;  border:none;  filter:none}",
-            ".writer-reply-form{position:absolute; left:0px; top:0px; height:400px}",
-            ".writer-reply-form div.close_button{ position:absolute;  right:-18px; top:-18px;  width:36px; height:36px;  background:url(" + path + "ec-close_box.png) no-repeat;  cursor:pointer}",
-*/
                 "</style>"
             ];
             $(arrStyle.join("")).appendTo("head");
