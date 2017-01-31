@@ -1,6 +1,12 @@
-
-// Are we going to use matlab-code/plotterName subdirectories?
-//   (probably just have it all in the main directory?)
+//
+// Janice Richards  7/10/2013
+//
+// Code generator: create web-page (.html and .js files), based on 
+//   (xml) inputFile.
+//
+// Resulting web-page will be an interactive plot, either based on 
+//  Jquery flot, or MATLAB code.
+//
 
 function Writer(){
    this.whatever = null;
