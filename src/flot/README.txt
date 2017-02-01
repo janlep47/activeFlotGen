@@ -1,3 +1,5 @@
+Add the Flot source files to this directory.
+
 About
 -----
 
