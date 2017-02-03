@@ -1,0 +1,27 @@
+[
+{ "javascriptRoutine":"doModule2_4", "uniquePlotName":"Module2_4" ,
+  "useSubmit":false , 
+  "initializeText":"var a = 2;" ,
+"fields": [
+{ "type":"slider" , "defaultVal":1 , "label":"Real Part &epsilon;<sub>1</sub>:" , 
+"id":"real_eps1" , "name":"real_eps1Val" , "min":0 , "max":10 , "step":0.05 },
+{ "type":"slider" , "defaultVal":1 , "label":"Imag Part &epsilon;<sub>1</sub>:" , 
+"id":"imag_eps1" , "name":"imag_eps1Val" , "min":0 , "max":10 , "step":0.05 },
+{ "type":"slider" , "defaultVal":1 , "label":"Real Part &epsilon;<sub>2</sub>:" , 
+"id":"real_eps2" , "name":"real_eps2Val" , "min":0 , "max":10 , "step":0.05 },
+{ "type":"slider" , "defaultVal":1 , "label":"Real Part &epsilon;<sub>2</sub>:" , 
+"id":"imag_eps2" , "name":"imag_eps2Val" , "min":0 , "max":10 , "step":0.05 },
+{ "type":"slider" , "defaultVal":30 , "label":"Incidence Angle (deg):" , 
+"id":"incang" , "name":"incangVal" , "min":0 , "max":90 , "step":0.05 },
+{ "type":"slider" , "defaultVal":1 , "label":"Frequency (GHz):" , 
+"id":"freq" , "name":"freqVal" , "min":0 , "max":10 , "step":0.025 },
+{ "type":"radio" , "value":"reflection_coeff" , "label":"Plot Reflection Coefficient Magnitude:" ,
+"name":"quant" , "checked":true },
+{ "type":"radio" , "value":"reflectivity" , "label":"Plot reflectivity:" ,
+"name":"quant" , "checked":false }
+], 
+"xAxisLabel":"Thickness of Middle Layer, meters", 
+"yAxisLabel":"",
+"plotTitle":""
+}
+]

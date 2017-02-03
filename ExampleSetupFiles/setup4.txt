@@ -1,0 +1,39 @@
+[
+{ "javascriptRoutine":"doPlotA", "uniquePlotName":"plotA" ,
+  "useSubmit":false , 
+  "initializeText":"var a = 2;" ,
+"fields": [
+{ "type":"slider" , "defaultVal":2 , "label":"coefficient a:" , "id":"amount" ,
+"name":"sliderVal" , "min":0 , "max":10 , "step":0.5 }
+], "xAxisLabel":"Here's the X Axis Label", 
+"yAxisLabel":"Y Axis &sigma;<sup align=right>0</sup><sub style='position: relative; left: -1.0em;'>mean</sub>",
+"plotTitle":"Plot Title (alpha = &alpha;, Delta = &Delta;)"
+},
+
+{ "matlabCode":"12345", 
+"fields": [
+{ "type":"entry" , "label":"Enter a real number:" ,
+"name":"var1" , "defaultVal":2.5 },
+{ "type":"entry" , "defaultVal":10 , "min":-20 ,
+"max":100 , "label":"Enter number from -20 to 100: " , "name":"var2"}
+]
+},
+
+{ "javascriptRoutine":"doHistogram", "uniquePlotName":"histogram1" ,
+  "useSubmit":false , 
+  "initializeText":"var d2 = [[0, 3], [4, 8], [8, 5], [9, 13]];" ,
+"fields": [
+{ "type":"slider" , "defaultVal":5 , "label":"Value 1:" , "id":"amount1" ,
+"name":"sliderVal1" , "min":0 , "max":10 , "step":0.5 },
+{ "type":"slider" , "defaultVal":4 , "label":"Value 2:" , "id":"amount2" ,
+"name":"sliderVal2" , "min":-10 , "max":10 , "step":1 },
+{ "type":"entry" , "label":"Enter a real number:" , "name":"var1" },
+{ "type":"entry" , "defaultVal":10 , "min":-20 , "max":100 , 
+"label":"Enter number from -20 to 100: " , "name":"var2" }
+]
+}
+]
+
+
+
+

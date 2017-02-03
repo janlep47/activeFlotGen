@@ -1,0 +1,17 @@
+[
+{ "javascriptRoutine":"doModule2_1", "uniquePlotName":"Module2_1" ,
+  "useSubmit":false , 
+  "initializeText":"var a = 2;" ,
+"fields": [
+{ "type":"slider" , "defaultVal":1 , "label":"Amplitude of E<sub>x</sub>:" , 
+"id":"ex" , "name":"exVal" , "min":0 , "max":1 , "step":0.05 },
+{ "type":"slider" , "defaultVal":1 , "label":"Amplitude of E<sub>y</sub>:" , 
+"id":"ey" , "name":"eyVal" , "min":0 , "max":1 , "step":0.05 },
+{ "type":"slider" , "defaultVal":90 , "label":"Phase difference (&phi;<sub>y</sub>-&phi;<sub>x</sub>) degrees:" , 
+"id":"dphi" , "name":"dphiVal" , "min":0 , "max":180 , "step":1.0 }
+], 
+"xAxisLabel":"E<sub>x</sub>", 
+"yAxisLabel":"E<sub>y</sub>",
+"plotTitle":"Polarization Ellipse"
+}
+]

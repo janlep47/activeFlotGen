@@ -1,0 +1,23 @@
+[
+{ "javascriptRoutine":"doModule2_2", "uniquePlotName":"Module2_2" ,
+  "useSubmit":false , 
+  "initializeText":"var epsi=1.; var freq_ghz=1.;" ,
+"fields": [
+{ "type":"slider" , "defaultVal":1 , "label":"Imaginary Part of the Dieletric Constant:" , 
+"id":"epsi" , "name":"epsiVal" , "min":0 , "max":10 , "step":0.05 },
+{ "type":"slider" , "defaultVal":1 , "label":"Frequency (GHz):" , 
+"id":"freq" , "name":"freqVal" , "min":0 , "max":10 , "step":0.05 },
+{ "type":"radio" , "value":"alpha" , "label":"Attenuation coefficient:" ,
+"name":"quant" , "checked":true },
+{ "type":"radio" , "value":"beta" , "label":"Phase coefficient:" ,
+"name":"quant" , "checked":false },
+{ "type":"radio" , "value":"eta" , "label":"Magnitude of intrinsic impedance:" ,
+"name":"quant" , "checked":false },
+{ "type":"radio" , "value":"eta" , "label":"Phase angle of intrinsic impedance:" ,
+"name":"quant" , "checked":false }
+], 
+"xAxisLabel":"Real Part of the Dielectric Constant", 
+"yAxisLabel":"",
+"plotTitle":""
+}
+]

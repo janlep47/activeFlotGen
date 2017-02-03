@@ -1,0 +1,25 @@
+[
+{ "matlabCode":"12345",
+"fields": [
+{ "type":"slider" , "defaultVal":5 , "label":"Value 1:" , "id":"amount1" ,
+"name":"sliderVal1" , "min":0 , "max":10 , "step":1 },
+{ "type":"slider" , "defaultVal":4 , "label":"Value 2:" , "id":"amount2" ,
+"name":"sliderVal2" , "min":-10 , "max":10 , "step":1 },
+{ "type":"entry" , "label":"Enter a real number:" ,
+"name":"var1" },
+{ "type":"entry" , "defaultVal":10 , "min":-20 ,
+"max":100 , "label":"Enter number from -20 to 100: " , "name":"var2" }
+]
+},
+{ "javascriptRoutine":"junkyPlot()",
+"fields": [
+{ "type":"slider" , "defaultVal":4 , "label":"Value 2:" ,
+"name":"sliderVal2" , "min":-10 , "max":10 , "step":1 },
+{ "type":"entry" , "defaultVal":0 , "min":-2 ,
+ "max":10 , "label":"Enter number from -2 to 10: " , "name":"var2" }
+]
+}
+]
+
+
+

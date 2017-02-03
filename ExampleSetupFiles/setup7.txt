@@ -1,0 +1,26 @@
+[
+{ "javascriptRoutine":"doPlotB", "uniquePlotName":"plotB" ,
+  "useSubmit":false , 
+"fields": [
+{ "type":"checkbox" , "value":"XvsY" , "label":"show plot x vs y" , 
+"name":"showsubplot" , "id":"showsubplot1" , "checked":false },
+{ "type":"checkbox" , "value":"YvsZ" , "label":"show plot y vs z" , 
+"name":"showsubplot" , "id":"showsubplot2" , "checked":true },
+{ "type":"checkbox" , "value":"XvsZ" , "label":"show plot x vs z" , 
+"name":"showsubplot" , "id":"showsubplot3" , "checked":true },
+
+{ "type":"radio" , "value":"meters" , "label":"Plot length in meters:" ,
+"name":"units" , "checked":true },
+{ "type":"radio" , "value":"miles" , "label":"Plot length in miles:" ,
+"name":"units" , "checked":false },
+{ "type":"radio" , "value":"yards" , "label":"Plot length in yards:" ,
+"name":"units" , "checked":false }
+], "xAxisLabel":"Here's the X Axis Label", 
+"yAxisLabel":"Here's the Y Axis Label",
+"plotTitle":"Plot Title"
+}
+]
+
+
+
+

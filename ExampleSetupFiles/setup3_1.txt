@@ -1,0 +1,23 @@
+[
+{ "javascriptRoutine":"doModule3_1", "uniquePlotName":"Module3_1" ,
+  "useSubmit":false , 
+  "initializeText":"var a = 2;" ,
+"fields": [
+{ "type":"slider" , "defaultVal":1 , "label":"Amplitude of Element 1:" , 
+"id":"amp1" , "name":"amp11Val" , "min":0 , "max":10 , "step":0.05 },
+{ "type":"slider" , "defaultVal":1 , "label":"Amplitude of Element 2:" , 
+"id":"amp2" , "name":"amp2Val" , "min":0 , "max":10 , "step":0.05 },
+{ "type":"slider" , "defaultVal":1 , "label":"Amplitude of Element 3:" , 
+"id":"amp3" , "name":"amp3Val" , "min":0 , "max":10 , "step":0.05 },
+{ "type":"slider" , "defaultVal":1 , "label":"Amplitude of Element 4:" , 
+"id":"amp4" , "name":"amp4Val" , "min":0 , "max":10 , "step":0.05 },
+{ "type":"slider" , "defaultVal":1 , "label":"Amplitude of Element 5:" , 
+"id":"amp5" , "name":"amp5Val" , "min":0 , "max":10 , "step":0.05 },
+{ "type":"slider" , "defaultVal":0.5 , "label":"Element Spacing, wavelengths:" , 
+"id":"d" , "name":"dVal" , "min":0 , "max":90 , "step":0.05 }
+], 
+"xAxisLabel":"Angle, degrees", 
+"yAxisLabel":"Normalized Array Factor (dB)",
+"plotTitle":"Array Factor"
+}
+]
