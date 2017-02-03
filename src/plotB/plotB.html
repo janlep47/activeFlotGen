@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta content='text/html;charset=utf-8' http-equiv='Content-Type'>
+  <meta content='utf-8' http-equiv='encoding'>
+
+<link rel='stylesheet' href='jquery-ui-1.9.0.custom.min.css' />
+<link rel='stylesheet' href='plot.css' />
+
+<script type='text/javascript' src='jquery-1.8.2.min.js'></script>
+<script type='text/javascript' src='jquery-ui-1.9.0.custom.min.js'></script>
+<script type='text/javascript' src='plotLibrary.js'></script>
+<script type='text/javascript' src='jquery.flot.min.js'></script>
+<script type='text/javascript' src='widgetsplotB.js'></script>
+</head>
+
+<body>
+
+
+<div id="messages"></div>
+
+ 
+  <div id="wrapper">
+    <div id="leftWrapper">
+      <div style="height: auto;" id="dataEntries" width="550" height="550">
+<div id="form">
+   <input name="showsubplot" id="showsubplot1" value="XvsY" type="checkbox">
+<label for="showsubplot1">show plot x vs y</label><br>
+   <input name="showsubplot" id="showsubplot2" value="YvsZ" checked="checked" type="checkbox">
+<label for="showsubplot2">show plot y vs z</label><br>
+   <input name="showsubplot" id="showsubplot3" value="XvsZ" checked="checked" type="checkbox">
+<label for="showsubplot3">show plot x vs z</label><br>
+   <input name="units" id="meters" value="meters" checked="checked" type="radio">
+<label for="meters">Plot length in meters:</label><br>
+   <input name="units" id="miles" value="miles" type="radio">
+<label for="miles">Plot length in miles:</label><br>
+   <input name="units" id="yards" value="yards" type="radio">
+<label for="yards">Plot length in yards:</label><br>
+</div></div>
+    </div>
+    <div id="rightWrapper">
+
+      <!-- Here's the table: will just DELETE it for the case of
+           matlab-generated plots, since will already have built-in
+           labels -->
+      <table style="text-align:center">
+        <tbody><tr>
+	  <th></th>
+	  <td id="plotTitle">Plot Title</td>
+        </tr>
+        <tr>
+	  <th><div class="vertical-text">
+              <div class="vertical-text__inner" id="yAxisLabel">Here's the Y Axis Label</div>
+              </div>
+          </th>
+	  <td>
+            <div id="plotB" class="plot" style="width:500px;height:450px"></div>
+          </td>
+        </tr>
+        <tr>
+	  <th></th>
+	  <td id="xAxisLabel">Here's the X Axis Label</td>
+        </tr>
+      </tbody></table>
+
+
+      <!-- This is where the plot will go for matlab-generated plots.
+           This line will be DELETED for the case of jquery-generated
+           plots, since will need the table (above) instead, to have
+           axis and header labels -->
+      
+    </div>
+  </div>
+
+
+</body>
+</html>

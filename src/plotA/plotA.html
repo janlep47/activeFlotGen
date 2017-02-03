@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta content='text/html;charset=utf-8' http-equiv='Content-Type'>
+  <meta content='utf-8' http-equiv='encoding'>
+
+<link rel='stylesheet' href='../jquery-ui-1.9.0.custom.min.css' />
+<link rel='stylesheet' href='../plot.css' />
+
+<script type='text/javascript' src='../jquery-1.8.2.min.js'></script>
+<script type='text/javascript' src='../jquery-ui-1.9.0.custom.min.js'></script>
+<script type='text/javascript' src='plotLibrary.js'></script>
+<script type='text/javascript' src='../jquery.flot.min.js'></script>
+<script type='text/javascript' src='widgetsplotA.js'></script>
+</head>
+
+<body>
+
+
+<div id="messages"></div>
+
+ 
+  <div id="wrapper">
+    <div id="leftWrapper">
+      <div style="height: auto;" id="dataEntries" width="550" height="550">
+<div id="form">
+   <br>
+<span>coefficient a:  </span>
+<div id="slider1" style="width:250px; display:inline-block;"></div>
+<input id="amount" name="sliderVal" style="border: 0;width:50px" type="text">
+ <br><br>
+
+</div></div>
+    </div>
+    <div id="rightWrapper">
+
+      <!-- Here's the table: will just DELETE it for the case of
+           matlab-generated plots, since will already have built-in
+           labels -->
+      <table style="text-align:center">
+        <tbody><tr>
+	  <th></th>
+	  <td id="plotTitle">Plot Title (alpha = α, Delta = Δ)</td>
+        </tr>
+        <tr>
+	  <th><div class="vertical-text">
+              <div class="vertical-text__inner" id="yAxisLabel">Y Axis σ<sup align="right">0</sup><sub style="position: relative; left: -1.0em;">mean</sub></div>
+              </div>
+          </th>
+	  <td>
+            <div id="plotA" class="plot" style="width:500px;height:450px"></div>
+          </td>
+        </tr>
+        <tr>
+	  <th></th>
+	  <td id="xAxisLabel">Here's the X Axis Label</td>
+        </tr>
+      </tbody></table>
+
+
+      <!-- This is where the plot will go for matlab-generated plots.
+           This line will be DELETED for the case of jquery-generated
+           plots, since will need the table (above) instead, to have
+           axis and header labels -->
+      
+    </div>
+  </div>
+
+
+</body>
+</html>
